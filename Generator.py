@@ -49,7 +49,8 @@ class Generator(nn.Module):
         x = self.mymodules[0](x)
         x = self.mymodules[1](x)
         return x
-        
+ 
+#This section was just used for checking the working  
 # g = Generator()
 # x = Variable(torch.rand([17, 3, 192, 256]))
 # print('i/P: ', x.size())
