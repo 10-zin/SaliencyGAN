@@ -45,18 +45,18 @@ class DataLoader(object):
             
           
     
-    
-d = DataLoader()
-imgs, maps = d.get_batch()
-I1 = imgs[4]
-S1 = maps[4]
+# This section was just used for checking the working    
+# d = DataLoader()
+# imgs, maps = d.get_batch()
+# I1 = imgs[4]
+# S1 = maps[4]
 
-def show(img):
-    print (img.shape)
-    pilTrans = transforms.ToPILImage()
-    pilImg = pilTrans(img)
-    s = np.array(pilImg)
-    plt.figure()
-    plt.imshow(s)
-show(I1)
-show(S1)
+# def show(img):
+#     print (img.shape)
+#     pilTrans = transforms.ToPILImage()
+#     pilImg = pilTrans(img)
+#     s = np.array(pilImg)
+#     plt.figure()
+#     plt.imshow(s)
+# show(I1)
+# show(S1)
