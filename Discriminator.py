@@ -87,7 +87,7 @@ class Discriminator(nn.Module):
             elif isinstance(m, nn.Linear):
                 m.weight.data.normal_(0, 0.01)
                 m.bias.data.zero_()
-                
+#This section was just used for checking the working                  
 # D = Discriminator()
 # x = Variable(torch.rand([17, 4, 192, 256]))
 # model = Discriminator()
